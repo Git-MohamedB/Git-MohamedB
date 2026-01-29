@@ -31,4 +31,4 @@ Voici une sélection de mes travaux techniques :
 Le code source de mon portfolio personnel est privé, mais n'hésite pas à me demander une démo !
 
 ### 📫 Me contacter
-* [[Ton lien LinkedIn](https://www.linkedin.com/in/mohamedlink10n/)]
+* [LinkedIn](https://www.linkedin.com/in/mohamedlink10n/)]
