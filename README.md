@@ -8,11 +8,11 @@ Développeur passionné par la création de solutions web robustes et interactiv
 
 Voici une sélection de mes travaux techniques :
 
-* **[Sentinel Réseau — IDS avec IA Locale](https://github.com/Git-MohamedB/Sentinel)**
+* **[Sentinel Réseau - IDS avec IA Locale](https://github.com/Git-MohamedB/Sentinel)**
     * *Techno : Python / Docker / Ollama (Llama 3)*
     * Système de Détection d'Intrusions (IDS) de nouvelle génération. En combinant un honeypot Nginx avec l'analyse sémantique d'un LLM local, Sentinel identifie, qualifie et bloque de manière autonome les requêtes malveillantes en temps réel.
 
-* **[Base de Données — Catastrophes Climatiques](https://github.com/Git-MohamedB/Base-De-Donnees-Catastrophes-Climatiques)**
+* **[Base de Données - Catastrophes Climatiques](https://github.com/Git-MohamedB/Base-De-Donnees-Catastrophes-Climatiques)**
     * *Techno : PostgreSQL / SQL*
     * Implémentation d'une base de données relationnelle normalisée pour modéliser et analyser les données mondiales relatives aux catastrophes climatiques (inondations, sécheresses, tempêtes, etc.). Transformation d'un fichier CSV brut en un schéma relationnel optimisé en 5 tables.
 
