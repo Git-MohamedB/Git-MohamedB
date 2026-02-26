@@ -1,4 +1,4 @@
-# Salut, je suis Mohamed
+# 👋 Salut, je suis Mohamed
 
 Développeur passionné par la création de solutions web robustes et interactives. J'aime transformer des problèmes complexes en interfaces simples et efficaces.
 
@@ -39,10 +39,10 @@ Voici une sélection de mes travaux techniques :
 
 ---
 
-### Mon Portfolio
+### 🖥️ Mon Portfolio
 
 Le code source de mon portfolio personnel est privé, mais n'hésite pas à me demander une démo !
 
-### Me contacter
+### 📩 Me contacter
 
 * [LinkedIn](https://www.linkedin.com/in/mohamedlink10n/)
