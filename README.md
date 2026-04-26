@@ -8,6 +8,10 @@ Développeur passionné par la création de solutions web robustes et interactiv
 
 Voici une sélection de mes travaux techniques :
 
+* **[Blood on the Clocktower - Bot Discord](https://github.com/Git-MohamedB/BOTC)**
+    * *Techno : TypeScript / Discord.js / Prisma*
+    * Bot Discord complet d'automatisation pour le jeu de rôle *Blood on the Clocktower*. Il intègre un "Night Engine" avancé permettant de guider le Maître du Jeu (MJ), de gérer automatiquement l'ordre d'action de la nuit et les ciblages des joueurs, ainsi qu'un Dashboard interactif pour la manipulation du Grimoire en temps réel.
+      
 * **[Sentinel Réseau - IDS avec IA Locale](https://github.com/Git-MohamedB/Sentinel)**
     * *Techno : Python / Docker / Ollama (Llama 3)*
     * Système de Détection d'Intrusions (IDS) de nouvelle génération. En combinant un honeypot Nginx avec l'analyse sémantique d'un LLM local, Sentinel identifie, qualifie et bloque de manière autonome les requêtes malveillantes en temps réel.
@@ -39,7 +43,7 @@ Voici une sélection de mes travaux techniques :
 
 ---
 
-### 🖥️ Mon Portfolio
+### Mon Portfolio
 
 Le code source de mon portfolio personnel est privé, mais n'hésite pas à me demander une démo !
 
