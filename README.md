@@ -1,52 +1,38 @@
-# 👋 Salut, je suis Mohamed
+# Mohamed — Développeur Fullstack & Systèmes
 
-Développeur passionné par la création de solutions web robustes et interactives. J'aime transformer des problèmes complexes en interfaces simples et efficaces.
+Je construis surtout des applications web (TypeScript, PHP, Python), avec un vrai intérêt pour la sécurité applicative, Docker et les projets plus bas niveau.
 
----
+### Projets principaux
 
-### Mes Projets Réalisés
+* **[Planifive](https://github.com/Git-MohamedB/planifive)** · `Next.js` `TypeScript` `Prisma` `SQLite`
+  Application web pour organiser des matchs de foot à 5 sans se perdre dans les sondages WhatsApp : chacun vote sur les créneaux de la semaine, les matchs passent à 10 joueurs automatiquement, et un algorithme compose deux équipes équilibrées selon le niveau technique et le cardio. Stats perso, MVP du mois et notifications Discord incluses — [démo en ligne](https://planifive.vercel.app/).
 
-Voici une sélection de mes travaux techniques :
+* **[Secure GPU Upscaler](https://github.com/Git-MohamedB/secure-gpu-upscaler)** · `Python` `FastAPI` `PyTorch` `Docker`
+  Microservice d'upscaling d'images sur GPU pensé pour encaisser des requêtes non fiables : upload streamé plafonné à 10 Mo, contrôle des magic bytes, blocage des *decompression bombs* (> 2048×2048) avant décodage, tiling VRAM en FP16 et conteneur Docker rootless.
 
-* **[Blood on the Clocktower - Bot Discord](https://github.com/Git-MohamedB/BOTC)**
-    * *Techno : TypeScript / Discord.js / Prisma*
-    * Bot Discord complet d'automatisation pour le jeu de rôle *Blood on the Clocktower*. Il intègre un "Night Engine" avancé permettant de guider le Maître du Jeu (MJ), de gérer automatiquement l'ordre d'action de la nuit et les ciblages des joueurs, ainsi qu'un Dashboard interactif pour la manipulation du Grimoire en temps réel.
-      
-* **[Sentinel Réseau - IDS avec IA Locale](https://github.com/Git-MohamedB/Sentinel)**
-    * *Techno : Python / Docker / Ollama (Llama 3)*
-    * Système de Détection d'Intrusions (IDS) de nouvelle génération. En combinant un honeypot Nginx avec l'analyse sémantique d'un LLM local, Sentinel identifie, qualifie et bloque de manière autonome les requêtes malveillantes en temps réel.
+* **[Mnémosyne](https://github.com/Git-MohamedB/mnemosyne)** · `PHP MVC` `MySQL` `JavaScript` `Docker`
+  Outil de suivi de cohortes BUT développé pour l'IUT de Villetaneuse (j'y ai assuré le développement principal). Permet d'importer les exports ScoDoc, de visualiser les passages d'une année à l'autre via des diagrammes de Sankey, de filtrer par promo ou dette et d'exporter des bilans en PDF/JSON.
 
-* **[Base de Données - Catastrophes Climatiques](https://github.com/Git-MohamedB/Base-De-Donnees-Catastrophes-Climatiques)**
-    * *Techno : PostgreSQL / SQL*
-    * Implémentation d'une base de données relationnelle normalisée pour modéliser et analyser les données mondiales relatives aux catastrophes climatiques (inondations, sécheresses, tempêtes, etc.). Transformation d'un fichier CSV brut en un schéma relationnel optimisé en 5 tables.
+* **[BOTC — Bot Discord](https://github.com/Git-MohamedB/BOTC)** · `TypeScript` `Discord.js` `Prisma` `SQLite`
+  Outil pour aider le Conteur à animer des parties de *Blood on the Clocktower* sur Discord : déroule l'ordre des actions de nuit en messages privés, gère les votes et génère un Grimoire visuel mis à jour en temps réel.
 
-* **[Jeu d'Echecs en Java](https://github.com/Git-MohamedB/Jeu-Echecs-Java)**
-    * *Techno : Java (POO)*
-    * Jeu d'échecs fonctionnel en console, développé dans le cadre d'une SAE universitaire. Chaque pièce possède sa propre logique de déplacement, avec gestion des captures, affichage de l'historique des coups et horloge de jeu.
+* **[Sentinel](https://github.com/Git-MohamedB/Sentinel)** · `Python` `Docker` `Nginx` `Ollama`
+  Petit système de détection d'intrusion monté en Docker : un serveur Nginx sert de leurre, un script Python filtre les requêtes suspectes dans les logs et les fait évaluer en local par Llama 3 pour bannir automatiquement les IP.
 
-* **[Planifive](https://github.com/Git-MohamedB/planifive)**
-    * *Techno : TypeScript*
-    * Une application complète pour organiser et planifier tes matchs de foot à 5 (Five). Gestion des créneaux et des participants.
-
-* **[Mnemosyne Cohorte](https://github.com/Git-MohamedB/Mnemosyne-Cohorte)**
-    * *Techno : PHP / Lead Dev*
-    * Projet de suivi pédagogique pour les cohortes de BUT à l'IUT de Villetaneuse. J'ai piloté le développement principal de cette solution de gestion académique.
-
-* **[LoL Balancer](https://github.com/Git-MohamedB/lolbalancer)**
-    * *Techno : JavaScript*
-    * Interface web moderne pour équilibrer les équipes de joueurs. Permet d'ajouter des participants, générer des équipes équitables et gérer les rôles.
-
-* **[Visualiseur d'Equations Différentielles](https://github.com/Git-MohamedB/visualiseur-equation-differentielle)**
-    * *Techno : HTML / JS / Maths*
-    * Application interactive pour visualiser et résoudre des équations différentielles ordinaires via différentes méthodes numériques.
-
+* **[Secure IoT Vault](https://github.com/Git-MohamedB/Secure-IoT-Vault)** · `C / C++` `ESP32`
+  Preuve de concept de serrure connectée sur ESP32 (clavier matriciel 4×4, écran LCD, servomoteur) : le code PIN est vérifié via hachage FNV-1a sans stockage en clair, avec verrouillage de 10 secondes après 3 essais ratés.
 
 ---
 
-### Mon Portfolio
+### Autres projets
 
-Le code source de mon portfolio personnel est privé, mais n'hésite pas à me demander une démo !
+* **[Catastrophes climatiques (BDD)](https://github.com/Git-MohamedB/Base-De-Donnees-Catastrophes-Climatiques)** · `PostgreSQL` `SQL` — Nettoyage d'un jeu de données CSV et modélisation en schéma relationnel normalisé (5 tables).
+* **[Jeu d'échecs console](https://github.com/Git-MohamedB/Jeu-Echecs-Java)** · `Java` — Projet universitaire en POO avec déplacements complets, captures, historique des coups et pendule.
+* **[LoL Balancer](https://github.com/Git-MohamedB/lolbalancer)** · `JavaScript` — Petit outil web pour répartir des joueurs en équipes équilibrées selon leurs rôles.
+* **[Visualiseur d'équations différentielles](https://github.com/Git-MohamedB/visualiseur-equation-differentielle)** · `HTML` `JavaScript` — Visualisation interactive et résolution numérique d'EDO dans le navigateur.
 
-### 📩 Me contacter
+---
 
-* [LinkedIn](https://www.linkedin.com/in/mohamedlink10n/)
+Le code de mon portfolio perso reste en privé pour l'instant, mais je peux montrer une démo sur demande.
+
+* Contact : [LinkedIn](https://www.linkedin.com/in/mohamedlink10n/)
