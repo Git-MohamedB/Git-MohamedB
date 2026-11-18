@@ -7,7 +7,7 @@
 
 Élève-ingénieur en informatique à Sup Galilée (Université Sorbonne Paris Nord) et ancien stagiaire R&D au LIPN (CNRS UMR 7030).
 
-Je travaille sur les systèmes critiques, le DevSecOps, l'infrastructure et l'IA embarquée/locale, entre services GPU/LLM conteneurisés, durcissement Linux, C/C++ sur microcontrôleur et développement web fullstack. À la recherche d'une alternance ingénieur à partir de 2027.
+Je travaille sur les systèmes critiques, le DevSecOps, l'infrastructure et l'IA embarquée/locale, entre services GPU/LLM conteneurisés, durcissement Linux, C/C++ simulé (Wokwi) et développement web fullstack. À la recherche d'une alternance ingénieur à partir de 2027.
 
 ## Stack Technique
 
@@ -26,8 +26,8 @@ Je travaille sur les systèmes critiques, le DevSecOps, l'infrastructure et l'IA
 - **[Sentinel](https://github.com/Git-MohamedB/Sentinel)** (`Python`, `Docker`, `Nginx`, `Ollama`)
   IDS et honeypot local en deux étages sous Docker Compose : un serveur Nginx exposé journalise le trafic HTTP pendant qu'un watcher Python pré-filtre les motifs suspects par regex et sollicite `llama3:8b` via Ollama en local pour qualifier les attaques, journaliser les bannissements et générer des rapports.
 
-- **[Secure-IoT-Vault](https://github.com/Git-MohamedB/Secure-IoT-Vault)** (`C++`, `ESP32`, `IoT`)
-  Preuve de concept de contrôle d'accès cyber-physique sur ESP32 DevKit (clavier matriciel 4x4, écran LCD I2C 16x2, servomoteur SG90) : vérification du PIN par empreinte FNV-1a sans stockage en clair, verrouillage anti-bruteforce non bloquant de 10 s via `millis()` après 3 erreurs et traces d'audit sur port série.
+- **[Secure-IoT-Vault](https://github.com/Git-MohamedB/Secure-IoT-Vault)** (`C++`, `Wokwi`, `Simulation ESP32`)
+  Preuve de concept de contrôle d'accès conçue et exécutée en simulation sous Wokwi (ESP32 virtuel, clavier matriciel 4x4, écran LCD I2C 16x2, servomoteur SG90) : vérification du PIN par empreinte FNV-1a sans stockage en clair, verrouillage anti-bruteforce non bloquant de 10 s via `millis()` après 3 erreurs et traces d'audit sur port série.
 
 - **[planifive](https://github.com/Git-MohamedB/planifive)** (`Next.js`, `TypeScript`, `Prisma`, `PostgreSQL`)
   Application fullstack d'organisation de matchs de futsal remplaçant les sondages manuels : votes sur créneaux hebdomadaires, génération d'équipes équilibrées selon niveau technique et cardio, synchronisation Discord (webhooks, bot, CRON) et mode démo isolé sans écriture en base. ([Démo en ligne](https://planifive.vercel.app/))

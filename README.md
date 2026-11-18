@@ -7,7 +7,7 @@
 
 Computer Science engineering student at Sup Galilée (Université Sorbonne Paris Nord) and former R&D intern at LIPN (CNRS UMR 7030).
 
-I focus on critical systems, DevSecOps, infrastructure, and edge AI, with hands-on work spanning containerized GPU/LLM backends, Linux hardening, embedded C/C++, and full-stack web engineering. Looking for an engineering apprenticeship starting in 2027.
+I focus on critical systems, DevSecOps, infrastructure, and edge AI, with hands-on work spanning containerized GPU/LLM backends, Linux hardening, simulated embedded C/C++ (Wokwi), and full-stack web engineering. Looking for an engineering apprenticeship starting in 2027.
 
 ## Core Stack
 
@@ -26,8 +26,8 @@ I focus on critical systems, DevSecOps, infrastructure, and edge AI, with hands-
 - **[Sentinel](https://github.com/Git-MohamedB/Sentinel)** (`Python`, `Docker`, `Nginx`, `Ollama`)
   Two-stage local IDS/honeypot in Docker Compose: an exposed Nginx container logs requests while a Python watcher filters suspicious patterns with regex heuristics and queries a local `llama3:8b` model over Ollama to confirm threats and record banned IPs with automated summary reporting.
 
-- **[Secure-IoT-Vault](https://github.com/Git-MohamedB/Secure-IoT-Vault)** (`C++`, `ESP32`, `IoT`)
-  Cyber-physical access control proof of concept on ESP32 DevKit with a 4x4 matrix keypad, I2C 16x2 LCD, and SG90 servo lock: avoids plaintext PIN storage via FNV-1a digest checks, blocks brute-force attempts with a non-blocking 10 s `millis()` lockout after 3 failures, and emits serial audit logs.
+- **[Secure-IoT-Vault](https://github.com/Git-MohamedB/Secure-IoT-Vault)** (`C++`, `Wokwi`, `Simulated ESP32`)
+  Access-control proof of concept built and simulated on Wokwi (virtual ESP32 DevKit with 4x4 matrix keypad, I2C 16x2 LCD, and SG90 servo): avoids plaintext PIN storage via FNV-1a digest checks, blocks brute-force attempts with a non-blocking 10 s `millis()` lockout after 3 failures, and emits serial audit logs.
 
 - **[planifive](https://github.com/Git-MohamedB/planifive)** (`Next.js`, `TypeScript`, `Prisma`, `PostgreSQL`)
   Full-stack platform to organize 5-a-side football sessions without scattered group polls: players vote on weekly time slots, balanced teams are generated from technical/stamina scores, and Discord webhooks/bots automate match calls and MVP voting, alongside a zero-DB demo mode. ([Live demo](https://planifive.vercel.app/))
